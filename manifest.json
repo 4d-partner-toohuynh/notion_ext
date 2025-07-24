@@ -1,0 +1,13 @@
+{
+    "name": "Dev Daily Parser",
+    "version": "1.0",
+    "description": "Parses a Markdown file to extract daily goals for a team member.",
+    "manifest_version": 3,
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "permissions": [
+      "storage"
+    ]
+  }
+  
