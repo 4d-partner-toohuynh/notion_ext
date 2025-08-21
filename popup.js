@@ -120,7 +120,7 @@ document.addEventListener("DOMContentLoaded", () => {
           if (memberMatch) {
             const memberBlock = memberMatch[2];
             const goalsRegex =
-              /What are your goals for today\?([\s\S]*?)(\n-|\n\n|How close are we)/i;
+              /What could you say you have accomplished today\?([\s\S]*?)(\n-|\n\n|How close are we)/i;
             const goalsMatch = memberBlock.match(goalsRegex);
 
             if (goalsMatch) {
